@@ -6,3 +6,5 @@ Miembros:
 - Gabriel Bernal Rodríguez - 2459645
 - Sebastian García Cardona - 2459672
 - Daniel Felipe Gonzalez - 2459631
+
+## PS: Se informa y esclarece de que el taller ha sido realizado con ayuda de IA para la revisión y mejoramiento de resultados a los esperados en el enunciado del proyecto.
