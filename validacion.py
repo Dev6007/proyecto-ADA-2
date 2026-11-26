@@ -14,7 +14,6 @@ def validar(esc):
         for a, v in c["inventario"].items():
             if v < 0:
                 err.append(f"Centro {c['nombre']}: inventario negativo de {a}.")
-                
     for z in esc["zonas"]: # <-- validacion de zonas
         if z["prioridad"] not in esc["prioridades"]:
             err.append(f"Zona {z['nombre']}: prioridad '{z['prioridad']}' no definida.")
@@ -22,3 +21,11 @@ def validar(esc):
             err.append(f"Zona {z['nombre']}: valores negativos.")
         if not 0 <= z["min_cobertura"] <= 1:
             err.append(f"Zona {z['nombre']}: cobertura mínima debe estar entre 0 y 100 %.")
+    for r in esc["rutas"]: # <-- validacion de rutas
+        if r["centro"] not in C or r["zona"] not in Z:
+            err.append(f"Ruta {r['centro']}→{r['zona']}: centro o zona inexistente.")
+        if r["costo"] < 0 or (r["capacidad"] is not None and r["capacidad"] < 0):
+            err.append(f"Ruta {r['centro']}→{r['zona']}: costo/capacidad negativos.")
+    if any(w < 0 for w in esc["prioridades"].values()):
+        err.append("Los pesos de prioridad no pueden ser negativos.")
+    return err
