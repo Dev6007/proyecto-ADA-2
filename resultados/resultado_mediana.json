@@ -1,0 +1,419 @@
+{
+  "estado_solucion": "Optimal",
+  "valor_objetivo": 12255.3446,
+  "tiempo_solucion_seg": 0.02366,
+  "num_variables": 360,
+  "num_restricciones": 150,
+  "cobertura_global_pct": 50.01,
+  "cobertura_por_zona_pct": {
+    "Zona 1": 0.0,
+    "Zona 2": 100.0,
+    "Zona 3": 0.0,
+    "Zona 4": 0.0,
+    "Zona 5": 100.0,
+    "Zona 6": 0.0,
+    "Zona 7": 0.0,
+    "Zona 8": 96.55,
+    "Zona 9": 100.0,
+    "Zona 10": 3.38,
+    "Zona 11": 0.0,
+    "Zona 12": 74.08
+  },
+  "cobertura_por_ayuda_pct": {
+    "Kit de mercado": 52.1,
+    "Agua": 32.79,
+    "Kit de aseo": 54.83,
+    "Kit de cocina": 52.68,
+    "Kit de descanso": 53.28
+  },
+  "enviado_por_centro": {
+    "Centro 1": {
+      "Kit de mercado": 51.0,
+      "Agua": 107.0,
+      "Kit de aseo": 168.0,
+      "Kit de cocina": 255.0,
+      "Kit de descanso": 151.0
+    },
+    "Centro 2": {
+      "Kit de mercado": 66.0,
+      "Agua": 4.0,
+      "Kit de aseo": 80.0,
+      "Kit de cocina": 176.0,
+      "Kit de descanso": 151.0
+    },
+    "Centro 3": {
+      "Kit de mercado": 125.0,
+      "Agua": 112.0,
+      "Kit de aseo": 147.0,
+      "Kit de cocina": 41.0,
+      "Kit de descanso": 239.0
+    },
+    "Centro 4": {
+      "Kit de mercado": 103.0,
+      "Agua": 0.0,
+      "Kit de aseo": 132.0,
+      "Kit de cocina": 57.0,
+      "Kit de descanso": 188.0
+    },
+    "Centro 5": {
+      "Kit de mercado": 151.0,
+      "Agua": 100.0,
+      "Kit de aseo": 160.0,
+      "Kit de cocina": 91.0,
+      "Kit de descanso": 213.0
+    }
+  },
+  "total_enviado_centro": {
+    "Centro 1": 732.0,
+    "Centro 2": 477.0,
+    "Centro 3": 664.0,
+    "Centro 4": 480.0,
+    "Centro 5": 715.0
+  },
+  "recibido_por_zona": {
+    "Zona 1": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 2": {
+      "Kit de mercado": 14.0,
+      "Agua": 6.0,
+      "Kit de aseo": 17.0,
+      "Kit de cocina": 16.0,
+      "Kit de descanso": 35.0
+    },
+    "Zona 3": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 4": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 5": {
+      "Kit de mercado": 108.0,
+      "Agua": 112.0,
+      "Kit de aseo": 127.0,
+      "Kit de cocina": 91.0,
+      "Kit de descanso": 240.0
+    },
+    "Zona 6": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 7": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 8": {
+      "Kit de mercado": 101.0,
+      "Agua": 101.0,
+      "Kit de aseo": 132.0,
+      "Kit de cocina": 116.0,
+      "Kit de descanso": 165.0
+    },
+    "Zona 9": {
+      "Kit de mercado": 134.0,
+      "Agua": 104.0,
+      "Kit de aseo": 187.0,
+      "Kit de cocina": 163.0,
+      "Kit de descanso": 283.0
+    },
+    "Zona 10": {
+      "Kit de mercado": 13.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 11": {
+      "Kit de mercado": 0.0,
+      "Agua": 0.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 0.0
+    },
+    "Zona 12": {
+      "Kit de mercado": 126.0,
+      "Agua": 0.0,
+      "Kit de aseo": 224.0,
+      "Kit de cocina": 234.0,
+      "Kit de descanso": 219.0
+    }
+  },
+  "demanda_atendida_zona": {
+    "Zona 1": 0.0,
+    "Zona 2": 88.0,
+    "Zona 3": 0.0,
+    "Zona 4": 0.0,
+    "Zona 5": 678.0,
+    "Zona 6": 0.0,
+    "Zona 7": 0.0,
+    "Zona 8": 615.0,
+    "Zona 9": 871.0,
+    "Zona 10": 13.0,
+    "Zona 11": 0.0,
+    "Zona 12": 803.0
+  },
+  "demanda_no_atendida_zona": {
+    "Zona 1": 38.0,
+    "Zona 2": 0.0,
+    "Zona 3": 97.0,
+    "Zona 4": 826.0,
+    "Zona 5": 0.0,
+    "Zona 6": 935.0,
+    "Zona 7": 88.0,
+    "Zona 8": 22.0,
+    "Zona 9": 0.0,
+    "Zona 10": 372.0,
+    "Zona 11": 408.0,
+    "Zona 12": 281.0
+  },
+  "demanda_atendida_ayuda": {
+    "Kit de mercado": 496.0,
+    "Agua": 323.0,
+    "Kit de aseo": 687.0,
+    "Kit de cocina": 620.0,
+    "Kit de descanso": 942.0
+  },
+  "demanda_no_atendida_ayuda": {
+    "Kit de mercado": 456.0,
+    "Agua": 662.0,
+    "Kit de aseo": 566.0,
+    "Kit de cocina": 557.0,
+    "Kit de descanso": 826.0
+  },
+  "demanda_no_atendida_total": 3067.0,
+  "rutas_utilizadas": [
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 2",
+      "total_unidades": 88.0,
+      "costo_ruta": 176.0,
+      "detalle": {
+        "Kit de mercado": 14,
+        "Agua": 6.0,
+        "Kit de aseo": 17,
+        "Kit de cocina": 16,
+        "Kit de descanso": 35
+      }
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 8",
+      "total_unidades": 217.0,
+      "costo_ruta": 217.0,
+      "detalle": {
+        "Agua": 101.0,
+        "Kit de descanso": 116
+      }
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 9",
+      "total_unidades": 285.0,
+      "costo_ruta": 5130.0,
+      "detalle": {
+        "Kit de mercado": 31,
+        "Kit de aseo": 151,
+        "Kit de cocina": 103
+      }
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 12",
+      "total_unidades": 142.0,
+      "costo_ruta": 426.0,
+      "detalle": {
+        "Kit de mercado": 6,
+        "Kit de cocina": 136
+      }
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 8",
+      "total_unidades": 245.0,
+      "costo_ruta": 2450.0,
+      "detalle": {
+        "Kit de aseo": 80,
+        "Kit de cocina": 116,
+        "Kit de descanso": 49
+      }
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 9",
+      "total_unidades": 232.0,
+      "costo_ruta": 1624.0,
+      "detalle": {
+        "Kit de mercado": 66,
+        "Agua": 4.0,
+        "Kit de cocina": 60,
+        "Kit de descanso": 102
+      }
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 5",
+      "total_unidades": 309.0,
+      "costo_ruta": 3399.0,
+      "detalle": {
+        "Kit de mercado": 108,
+        "Agua": 112.0,
+        "Kit de aseo": 31,
+        "Kit de descanso": 58
+      }
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 9",
+      "total_unidades": 181.0,
+      "costo_ruta": 1810.0,
+      "detalle": {
+        "Kit de descanso": 181
+      }
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 12",
+      "total_unidades": 174.0,
+      "costo_ruta": 3306.0,
+      "detalle": {
+        "Kit de mercado": 17,
+        "Kit de aseo": 116,
+        "Kit de cocina": 41
+      }
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 5",
+      "total_unidades": 96.0,
+      "costo_ruta": 1248.0,
+      "detalle": {
+        "Kit de aseo": 96
+      }
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 9",
+      "total_unidades": 36.0,
+      "costo_ruta": 684.0,
+      "detalle": {
+        "Kit de aseo": 36
+      }
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 12",
+      "total_unidades": 348.0,
+      "costo_ruta": 6264.0,
+      "detalle": {
+        "Kit de mercado": 103,
+        "Kit de cocina": 57,
+        "Kit de descanso": 188
+      }
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 5",
+      "total_unidades": 273.0,
+      "costo_ruta": 3276.0,
+      "detalle": {
+        "Kit de cocina": 91,
+        "Kit de descanso": 182
+      }
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 8",
+      "total_unidades": 153.0,
+      "costo_ruta": 2754.0,
+      "detalle": {
+        "Kit de mercado": 101,
+        "Kit de aseo": 52
+      }
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 9",
+      "total_unidades": 137.0,
+      "costo_ruta": 1918.0,
+      "detalle": {
+        "Kit de mercado": 37,
+        "Agua": 100.0
+      }
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 10",
+      "total_unidades": 13.0,
+      "costo_ruta": 65.0,
+      "detalle": {
+        "Kit de mercado": 13
+      }
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 12",
+      "total_unidades": 139.0,
+      "costo_ruta": 1807.0,
+      "detalle": {
+        "Kit de aseo": 108,
+        "Kit de descanso": 31
+      }
+    }
+  ],
+  "costo_total_transporte": 36554.0,
+  "inventario_restante": {
+    "Centro 1": {
+      "Kit de mercado": 33.0,
+      "Agua": 88.0,
+      "Kit de aseo": 98.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 94.0
+    },
+    "Centro 2": {
+      "Kit de mercado": 0.0,
+      "Agua": 111.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 93.0
+    },
+    "Centro 3": {
+      "Kit de mercado": 40.0,
+      "Agua": 58.0,
+      "Kit de aseo": 69.0,
+      "Kit de cocina": 106.0,
+      "Kit de descanso": 12.0
+    },
+    "Centro 4": {
+      "Kit de mercado": 0.0,
+      "Agua": 74.0,
+      "Kit de aseo": 42.0,
+      "Kit de cocina": 0.0,
+      "Kit de descanso": 90.0
+    },
+    "Centro 5": {
+      "Kit de mercado": 112.0,
+      "Agua": 49.0,
+      "Kit de aseo": 0.0,
+      "Kit de cocina": 114.0,
+      "Kit de descanso": 32.0
+    }
+  }
+}
