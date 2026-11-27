@@ -1,0 +1,2351 @@
+{
+  "ayudas": [
+    {
+      "nombre": "Kit de mercado",
+      "indivisible": true
+    },
+    {
+      "nombre": "Agua",
+      "indivisible": false
+    },
+    {
+      "nombre": "Kit de aseo",
+      "indivisible": true
+    },
+    {
+      "nombre": "Kit de cocina",
+      "indivisible": true
+    },
+    {
+      "nombre": "Kit de descanso",
+      "indivisible": true
+    },
+    {
+      "nombre": "Kit de la primera infancia",
+      "indivisible": true
+    },
+    {
+      "nombre": "Medicinas",
+      "indivisible": true
+    },
+    {
+      "nombre": "Abrigo",
+      "indivisible": true
+    }
+  ],
+  "prioridades": {
+    "Crítica": 4,
+    "Alta": 3,
+    "Media": 2,
+    "Baja": 1
+  },
+  "centros": [
+    {
+      "nombre": "Centro 1",
+      "activo": true,
+      "capacidad": 914,
+      "inventario": {
+        "Kit de mercado": 84,
+        "Agua": 195,
+        "Kit de aseo": 266,
+        "Kit de cocina": 255,
+        "Kit de descanso": 245,
+        "Kit de la primera infancia": 66,
+        "Medicinas": 115,
+        "Abrigo": 80
+      }
+    },
+    {
+      "nombre": "Centro 2",
+      "activo": true,
+      "capacidad": 1030,
+      "inventario": {
+        "Kit de mercado": 176,
+        "Agua": 244,
+        "Kit de aseo": 165,
+        "Kit de cocina": 170,
+        "Kit de descanso": 216,
+        "Kit de la primera infancia": 147,
+        "Medicinas": 251,
+        "Abrigo": 103
+      }
+    },
+    {
+      "nombre": "Centro 3",
+      "activo": true,
+      "capacidad": 952,
+      "inventario": {
+        "Kit de mercado": 74,
+        "Agua": 174,
+        "Kit de aseo": 57,
+        "Kit de cocina": 278,
+        "Kit de descanso": 263,
+        "Kit de la primera infancia": 149,
+        "Medicinas": 160,
+        "Abrigo": 205
+      }
+    },
+    {
+      "nombre": "Centro 4",
+      "activo": true,
+      "capacidad": 1078,
+      "inventario": {
+        "Kit de mercado": 245,
+        "Agua": 246,
+        "Kit de aseo": 50,
+        "Kit de cocina": 228,
+        "Kit de descanso": 164,
+        "Kit de la primera infancia": 118,
+        "Medicinas": 234,
+        "Abrigo": 255
+      }
+    },
+    {
+      "nombre": "Centro 5",
+      "activo": true,
+      "capacidad": 839,
+      "inventario": {
+        "Kit de mercado": 108,
+        "Agua": 201,
+        "Kit de aseo": 291,
+        "Kit de cocina": 76,
+        "Kit de descanso": 280,
+        "Kit de la primera infancia": 131,
+        "Medicinas": 57,
+        "Abrigo": 55
+      }
+    },
+    {
+      "nombre": "Centro 6",
+      "activo": true,
+      "capacidad": 1014,
+      "inventario": {
+        "Kit de mercado": 56,
+        "Agua": 216,
+        "Kit de aseo": 188,
+        "Kit de cocina": 52,
+        "Kit de descanso": 290,
+        "Kit de la primera infancia": 275,
+        "Medicinas": 147,
+        "Abrigo": 225
+      }
+    },
+    {
+      "nombre": "Centro 7",
+      "activo": true,
+      "capacidad": 972,
+      "inventario": {
+        "Kit de mercado": 105,
+        "Agua": 298,
+        "Kit de aseo": 158,
+        "Kit de cocina": 235,
+        "Kit de descanso": 57,
+        "Kit de la primera infancia": 185,
+        "Medicinas": 106,
+        "Abrigo": 245
+      }
+    },
+    {
+      "nombre": "Centro 8",
+      "activo": true,
+      "capacidad": 979,
+      "inventario": {
+        "Kit de mercado": 162,
+        "Agua": 290,
+        "Kit de aseo": 176,
+        "Kit de cocina": 191,
+        "Kit de descanso": 109,
+        "Kit de la primera infancia": 138,
+        "Medicinas": 109,
+        "Abrigo": 223
+      }
+    },
+    {
+      "nombre": "Centro 9",
+      "activo": true,
+      "capacidad": 1002,
+      "inventario": {
+        "Kit de mercado": 106,
+        "Agua": 244,
+        "Kit de aseo": 167,
+        "Kit de cocina": 293,
+        "Kit de descanso": 124,
+        "Kit de la primera infancia": 287,
+        "Medicinas": 55,
+        "Abrigo": 156
+      }
+    },
+    {
+      "nombre": "Centro 10",
+      "activo": true,
+      "capacidad": 1136,
+      "inventario": {
+        "Kit de mercado": 264,
+        "Agua": 284,
+        "Kit de aseo": 192,
+        "Kit de cocina": 286,
+        "Kit de descanso": 214,
+        "Kit de la primera infancia": 75,
+        "Medicinas": 97,
+        "Abrigo": 211
+      }
+    }
+  ],
+  "zonas": [
+    {
+      "nombre": "Zona 1",
+      "poblacion": 2628,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 94,
+        "Agua": 192,
+        "Kit de aseo": 152,
+        "Kit de cocina": 118,
+        "Kit de descanso": 172,
+        "Kit de la primera infancia": 82,
+        "Medicinas": 110,
+        "Abrigo": 79
+      }
+    },
+    {
+      "nombre": "Zona 2",
+      "poblacion": 2527,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 98,
+        "Agua": 133,
+        "Kit de aseo": 108,
+        "Kit de cocina": 61,
+        "Kit de descanso": 84,
+        "Kit de la primera infancia": 102,
+        "Medicinas": 68,
+        "Abrigo": 74
+      }
+    },
+    {
+      "nombre": "Zona 3",
+      "poblacion": 4695,
+      "prioridad": "Media",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 79,
+        "Agua": 286,
+        "Kit de aseo": 112,
+        "Kit de cocina": 140,
+        "Kit de descanso": 281,
+        "Kit de la primera infancia": 127,
+        "Medicinas": 172,
+        "Abrigo": 199
+      }
+    },
+    {
+      "nombre": "Zona 4",
+      "poblacion": 2727,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 90,
+        "Agua": 95,
+        "Kit de aseo": 78,
+        "Kit de cocina": 63,
+        "Kit de descanso": 85,
+        "Kit de la primera infancia": 120,
+        "Medicinas": 85,
+        "Abrigo": 108
+      }
+    },
+    {
+      "nombre": "Zona 5",
+      "poblacion": 3016,
+      "prioridad": "Media",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 83,
+        "Agua": 121,
+        "Kit de aseo": 124,
+        "Kit de cocina": 197,
+        "Kit de descanso": 68,
+        "Kit de la primera infancia": 120,
+        "Medicinas": 118,
+        "Abrigo": 182
+      }
+    },
+    {
+      "nombre": "Zona 6",
+      "poblacion": 4398,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 129,
+        "Agua": 244,
+        "Kit de aseo": 160,
+        "Kit de cocina": 110,
+        "Kit de descanso": 269,
+        "Kit de la primera infancia": 146,
+        "Medicinas": 91,
+        "Abrigo": 193
+      }
+    },
+    {
+      "nombre": "Zona 7",
+      "poblacion": 4172,
+      "prioridad": "Media",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 110,
+        "Agua": 109,
+        "Kit de aseo": 171,
+        "Kit de cocina": 241,
+        "Kit de descanso": 155,
+        "Kit de la primera infancia": 142,
+        "Medicinas": 161,
+        "Abrigo": 207
+      }
+    },
+    {
+      "nombre": "Zona 8",
+      "poblacion": 4711,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 185,
+        "Agua": 320,
+        "Kit de aseo": 240,
+        "Kit de cocina": 278,
+        "Kit de descanso": 159,
+        "Kit de la primera infancia": 196,
+        "Medicinas": 164,
+        "Abrigo": 120
+      }
+    },
+    {
+      "nombre": "Zona 9",
+      "poblacion": 336,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 5,
+        "Agua": 22,
+        "Kit de aseo": 10,
+        "Kit de cocina": 9,
+        "Kit de descanso": 17,
+        "Kit de la primera infancia": 9,
+        "Medicinas": 6,
+        "Abrigo": 10
+      }
+    },
+    {
+      "nombre": "Zona 10",
+      "poblacion": 4520,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 151,
+        "Agua": 272,
+        "Kit de aseo": 141,
+        "Kit de cocina": 244,
+        "Kit de descanso": 201,
+        "Kit de la primera infancia": 86,
+        "Medicinas": 109,
+        "Abrigo": 166
+      }
+    },
+    {
+      "nombre": "Zona 11",
+      "poblacion": 1740,
+      "prioridad": "Media",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 30,
+        "Agua": 127,
+        "Kit de aseo": 69,
+        "Kit de cocina": 55,
+        "Kit de descanso": 86,
+        "Kit de la primera infancia": 71,
+        "Medicinas": 27,
+        "Abrigo": 39
+      }
+    },
+    {
+      "nombre": "Zona 12",
+      "poblacion": 1399,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 49,
+        "Agua": 48,
+        "Kit de aseo": 66,
+        "Kit de cocina": 74,
+        "Kit de descanso": 65,
+        "Kit de la primera infancia": 31,
+        "Medicinas": 61,
+        "Abrigo": 79
+      }
+    },
+    {
+      "nombre": "Zona 13",
+      "poblacion": 4431,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 92,
+        "Agua": 266,
+        "Kit de aseo": 156,
+        "Kit de cocina": 214,
+        "Kit de descanso": 162,
+        "Kit de la primera infancia": 155,
+        "Medicinas": 73,
+        "Abrigo": 154
+      }
+    },
+    {
+      "nombre": "Zona 14",
+      "poblacion": 1937,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 45,
+        "Agua": 138,
+        "Kit de aseo": 62,
+        "Kit de cocina": 125,
+        "Kit de descanso": 107,
+        "Kit de la primera infancia": 55,
+        "Medicinas": 43,
+        "Abrigo": 43
+      }
+    },
+    {
+      "nombre": "Zona 15",
+      "poblacion": 510,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 21,
+        "Agua": 29,
+        "Kit de aseo": 13,
+        "Kit de cocina": 31,
+        "Kit de descanso": 34,
+        "Kit de la primera infancia": 19,
+        "Medicinas": 15,
+        "Abrigo": 20
+      }
+    },
+    {
+      "nombre": "Zona 16",
+      "poblacion": 3042,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 62,
+        "Agua": 187,
+        "Kit de aseo": 112,
+        "Kit de cocina": 95,
+        "Kit de descanso": 82,
+        "Kit de la primera infancia": 110,
+        "Medicinas": 72,
+        "Abrigo": 133
+      }
+    },
+    {
+      "nombre": "Zona 17",
+      "poblacion": 2865,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 115,
+        "Agua": 78,
+        "Kit de aseo": 79,
+        "Kit de cocina": 106,
+        "Kit de descanso": 190,
+        "Kit de la primera infancia": 114,
+        "Medicinas": 71,
+        "Abrigo": 89
+      }
+    },
+    {
+      "nombre": "Zona 18",
+      "poblacion": 989,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 41,
+        "Agua": 44,
+        "Kit de aseo": 54,
+        "Kit de cocina": 53,
+        "Kit de descanso": 43,
+        "Kit de la primera infancia": 46,
+        "Medicinas": 22,
+        "Abrigo": 53
+      }
+    },
+    {
+      "nombre": "Zona 19",
+      "poblacion": 893,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 17,
+        "Agua": 66,
+        "Kit de aseo": 25,
+        "Kit de cocina": 50,
+        "Kit de descanso": 44,
+        "Kit de la primera infancia": 37,
+        "Medicinas": 23,
+        "Abrigo": 33
+      }
+    },
+    {
+      "nombre": "Zona 20",
+      "poblacion": 2585,
+      "prioridad": "Alta",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 102,
+        "Agua": 149,
+        "Kit de aseo": 148,
+        "Kit de cocina": 161,
+        "Kit de descanso": 73,
+        "Kit de la primera infancia": 84,
+        "Medicinas": 46,
+        "Abrigo": 61
+      }
+    },
+    {
+      "nombre": "Zona 21",
+      "poblacion": 799,
+      "prioridad": "Baja",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 31,
+        "Agua": 54,
+        "Kit de aseo": 42,
+        "Kit de cocina": 30,
+        "Kit de descanso": 40,
+        "Kit de la primera infancia": 32,
+        "Medicinas": 21,
+        "Abrigo": 37
+      }
+    },
+    {
+      "nombre": "Zona 22",
+      "poblacion": 2032,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 85,
+        "Agua": 92,
+        "Kit de aseo": 64,
+        "Kit de cocina": 94,
+        "Kit de descanso": 56,
+        "Kit de la primera infancia": 88,
+        "Medicinas": 37,
+        "Abrigo": 48
+      }
+    },
+    {
+      "nombre": "Zona 23",
+      "poblacion": 2622,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 84,
+        "Agua": 71,
+        "Kit de aseo": 94,
+        "Kit de cocina": 156,
+        "Kit de descanso": 151,
+        "Kit de la primera infancia": 56,
+        "Medicinas": 100,
+        "Abrigo": 124
+      }
+    },
+    {
+      "nombre": "Zona 24",
+      "poblacion": 1527,
+      "prioridad": "Crítica",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 42,
+        "Agua": 94,
+        "Kit de aseo": 40,
+        "Kit de cocina": 92,
+        "Kit de descanso": 64,
+        "Kit de la primera infancia": 69,
+        "Medicinas": 59,
+        "Abrigo": 70
+      }
+    },
+    {
+      "nombre": "Zona 25",
+      "poblacion": 2608,
+      "prioridad": "Media",
+      "min_cobertura": 0.0,
+      "demanda": {
+        "Kit de mercado": 91,
+        "Agua": 111,
+        "Kit de aseo": 73,
+        "Kit de cocina": 96,
+        "Kit de descanso": 61,
+        "Kit de la primera infancia": 104,
+        "Medicinas": 110,
+        "Abrigo": 140
+      }
+    }
+  ],
+  "rutas": [
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 260
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 262
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 157
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 377
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 282
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 206
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 284
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 8",
+      "disponible": false,
+      "costo": 9,
+      "capacidad": 145
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 146
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 216
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 121
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 396
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 225
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 396
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 225
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 305
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 17",
+      "disponible": false,
+      "costo": 18,
+      "capacidad": 136
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 105
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 352
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 151
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 139
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 191
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 263
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 250
+    },
+    {
+      "centro": "Centro 1",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 172
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 261
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 383
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 191
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 180
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 5",
+      "disponible": false,
+      "costo": 8,
+      "capacidad": 229
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 320
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 324
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 105
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 187
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 313
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 131
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 170
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 232
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 303
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 145
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 190
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 324
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 222
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 215
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 386
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 212
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 22",
+      "disponible": false,
+      "costo": 3,
+      "capacidad": 361
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 181
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 259
+    },
+    {
+      "centro": "Centro 2",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 382
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 143
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 363
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 179
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 391
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 353
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 296
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 378
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 368
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 151
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 171
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 141
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 295
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 303
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 324
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 208
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 373
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 251
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 386
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 19",
+      "disponible": false,
+      "costo": 7,
+      "capacidad": 370
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 115
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 224
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 188
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 202
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 228
+    },
+    {
+      "centro": "Centro 3",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 186
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 315
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 392
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 245
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 160
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 379
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 138
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 259
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 370
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 326
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 256
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 392
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 295
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 242
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 201
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 364
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 187
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 201
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 299
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 272
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 134
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 248
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 179
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 238
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 105
+    },
+    {
+      "centro": "Centro 4",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 310
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 255
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 348
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 123
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 316
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 5",
+      "disponible": false,
+      "costo": 3,
+      "capacidad": 326
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 6",
+      "disponible": false,
+      "costo": 17,
+      "capacidad": 182
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 241
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 370
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 237
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 10",
+      "disponible": false,
+      "costo": 17,
+      "capacidad": 288
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 125
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 238
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 300
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 347
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 268
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 225
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 306
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 227
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 137
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 396
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 234
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 170
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 284
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 223
+    },
+    {
+      "centro": "Centro 5",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 256
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 1",
+      "disponible": false,
+      "costo": 8,
+      "capacidad": 303
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 195
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 3",
+      "disponible": false,
+      "costo": 20,
+      "capacidad": 111
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 117
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 326
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 160
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 148
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 353
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 218
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 336
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 208
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 269
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 209
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 107
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 263
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 247
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 181
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 115
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 19",
+      "disponible": false,
+      "costo": 5,
+      "capacidad": 377
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 20",
+      "disponible": false,
+      "costo": 13,
+      "capacidad": 230
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 255
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 374
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 23",
+      "disponible": false,
+      "costo": 5,
+      "capacidad": 121
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 321
+    },
+    {
+      "centro": "Centro 6",
+      "zona": "Zona 25",
+      "disponible": false,
+      "costo": 1,
+      "capacidad": 355
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 198
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 268
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 224
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 189
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 386
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 280
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 202
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 317
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 236
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 228
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 177
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 12",
+      "disponible": false,
+      "costo": 7,
+      "capacidad": 319
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 146
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 340
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 260
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 16",
+      "disponible": false,
+      "costo": 18,
+      "capacidad": 116
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 302
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 112
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 146
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 143
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 129
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 166
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 159
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 148
+    },
+    {
+      "centro": "Centro 7",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 357
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 273
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 399
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 329
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 4",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 397
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 115
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 180
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 13,
+      "capacidad": 366
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 276
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 122
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 260
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 280
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 356
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 13",
+      "disponible": false,
+      "costo": 4,
+      "capacidad": 176
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 267
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 243
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 294
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 396
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 124
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 228
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 273
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 306
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 274
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 114
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 388
+    },
+    {
+      "centro": "Centro 8",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 194
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 20,
+      "capacidad": 125
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 236
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 233
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 4",
+      "disponible": false,
+      "costo": 19,
+      "capacidad": 369
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 211
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 361
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 288
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 245
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 352
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 8,
+      "capacidad": 317
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 11",
+      "disponible": true,
+      "costo": 12,
+      "capacidad": 378
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 7,
+      "capacidad": 346
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 308
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 294
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 139
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 17,
+      "capacidad": 396
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 2,
+      "capacidad": 280
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 15,
+      "capacidad": 103
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 102
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 362
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 11,
+      "capacidad": 378
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 244
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 23",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 365
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 19,
+      "capacidad": 257
+    },
+    {
+      "centro": "Centro 9",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 359
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 1",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 381
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 2",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 229
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 3",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 389
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 4",
+      "disponible": false,
+      "costo": 14,
+      "capacidad": 305
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 5",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 146
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 6",
+      "disponible": true,
+      "costo": 1,
+      "capacidad": 296
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 7",
+      "disponible": true,
+      "costo": 9,
+      "capacidad": 290
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 8",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 272
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 9",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 347
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 10",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 175
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 11",
+      "disponible": false,
+      "costo": 6,
+      "capacidad": 233
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 12",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 247
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 13",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 232
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 14",
+      "disponible": true,
+      "costo": 10,
+      "capacidad": 315
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 15",
+      "disponible": true,
+      "costo": 14,
+      "capacidad": 271
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 16",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 210
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 17",
+      "disponible": true,
+      "costo": 16,
+      "capacidad": 305
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 18",
+      "disponible": true,
+      "costo": 3,
+      "capacidad": 132
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 19",
+      "disponible": true,
+      "costo": 5,
+      "capacidad": 217
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 20",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 229
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 21",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 304
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 22",
+      "disponible": true,
+      "costo": 6,
+      "capacidad": 101
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 23",
+      "disponible": false,
+      "costo": 20,
+      "capacidad": 126
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 24",
+      "disponible": true,
+      "costo": 18,
+      "capacidad": 316
+    },
+    {
+      "centro": "Centro 10",
+      "zona": "Zona 25",
+      "disponible": true,
+      "costo": 4,
+      "capacidad": 383
+    }
+  ],
+  "restricciones": {
+    "presupuesto": null
+  }
+}
