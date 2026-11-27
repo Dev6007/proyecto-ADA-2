@@ -1,0 +1,4 @@
+Instancia,Centros,Zonas,Tipos_Ayuda,Variables,Restricciones,Tiempo_seg,Valor_Objetivo,Cobertura_Global_pct,Demanda_No_Satisfecha,Costo_Transporte,Estado
+Pequeña,3,5,3,60,42,0.02335,3220.1624,50.0,1038.0,8376.0,Optimal
+Mediana,5,12,5,360,150,0.02366,12255.3446,50.01,3067.0,36554.0,Optimal
+Grande,10,25,8,2200,540,0.1549,34615.0173,49.98,9924.0,59827.0,Optimal
